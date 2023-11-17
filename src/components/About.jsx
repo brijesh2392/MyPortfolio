@@ -4,12 +4,9 @@ import { PiMedal, PiSuitcase } from "react-icons/pi";
 import { BiSupport } from "react-icons/bi";
 import { HiOutlineDocumentText } from "react-icons/hi";
 
-const PDF_FILE_URL = "http://localhost:5173/BrijeshCV.pdf"
-
-
+const PDF_FILE_URL = "http://localhost:5173/Brijesh-Resume.pdf";
 
 const About = () => {
-  
   const downloadFileAtUrl = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
@@ -64,10 +61,8 @@ const About = () => {
               <span className=" flex justify-center">
                 <BiSupport size={15} />
               </span>{" "}
-              Online{" "}
-              <p className=" md:text-sm text-textClr text-center">
-                Online 24*7
-              </p>{" "}
+              Frontend{" "}
+              <p className=" md:text-sm text-textClr text-center">Developer</p>{" "}
             </div>
           </div>
           <p className=" text-center sm:px-20 md:text-start md:flex md:justify-center md:max-w-[630px] max-w-[450px] ">
@@ -76,12 +71,11 @@ const About = () => {
           </p>
           <div className=" flex justify-center py-12">
             <button
-            onClick={()=> {
-              downloadFileAtUrl(PDF_FILE_URL)
-            }}
-             className="  flex items-center gap-2 p-5 rounded-2xl px-10 border-2 border-purple-900 hover:border-blue-400 text-gray-300 hover:text-blue-400 font-semibold"
+              onClick={() => {
+                downloadFileAtUrl(PDF_FILE_URL);
+              }}
+              className="  flex items-center gap-2 p-5 rounded-2xl px-10 border-2 border-purple-900 hover:border-blue-400 text-gray-300 hover:text-blue-400 font-semibold"
             >
-             
               Download CV <HiOutlineDocumentText />
             </button>
           </div>
@@ -92,6 +86,3 @@ const About = () => {
 };
 
 export default About;
-
-
-

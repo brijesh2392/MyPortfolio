@@ -6,7 +6,7 @@ import youtubeClone from "../../assets/YoutubeClone.png";
 import movflix from "../../assets/movflix.png";
 import amazoncrop from "../../assets/amazoncrop.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from "react-responsive-carousel";
 
 import ProjectsCard from "./ProjectsCard";
 
@@ -47,15 +47,13 @@ const Project = () => {
             </a>
           }
           image={amazoncrop}
-          link={
-            "https://github.com/brijesh2392/AmazonClone"
-          }
+          link={"https://github.com/brijesh2392/AmazonClone"}
         />
 
         <ProjectsCard
           ProjectName={
             <a
-              href="https://mov-flix-01-ggt72zhy0-brijeshs-projects-c9c46df6.vercel.app/"
+              href="https://mov-flix.vercel.app/"
               target="blank"
               rel="noreferrer noopener"
             >
@@ -68,19 +66,19 @@ const Project = () => {
           }
         />
         <Carousel>
-        <ProjectsCard
-          ProjectName={"Password Generator"}
-          image={PassGen}
-          link={"https://github.com/brijesh2392/bnewapp/tree/main/PassGen"}
-        />
+          <ProjectsCard
+            ProjectName={"Password Generator"}
+            image={PassGen}
+            link={"https://github.com/brijesh2392/bnewapp/tree/main/PassGen"}
+          />
 
-        <ProjectsCard
-          ProjectName={"Currency Convertor"}
-          image={currPreview}
-          link={
-            "https://github.com/brijesh2392/bnewapp/tree/main/CurrencyConverter"
-          }
-        />
+          <ProjectsCard
+            ProjectName={"Currency Convertor"}
+            image={currPreview}
+            link={
+              "https://github.com/brijesh2392/bnewapp/tree/main/CurrencyConverter"
+            }
+          />
         </Carousel>
       </div>
     </div>
