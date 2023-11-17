@@ -1,0 +1,37 @@
+body {
+  background-image: linear-gradient(to right, #2d0f41 , #160f1c);
+  color: antiquewhite;}
+
+  
+  .gradient-text {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #03045e, #78c1cf, #023e8a);
+    -webkit-background-clip: text; /* For webkit-based browsers (Chrome, Safari) */
+    color: transparent;
+}
+
+.gradient-textLogo {
+  font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #060949, #99e2f1, #023e8a);
+  -webkit-background-clip: text; /* For webkit-based browsers (Chrome, Safari) */
+  color: transparent;
+}
+
+.gradient-textNav {
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #03045e, #78c1cf, #023e8a);
+  -webkit-background-clip: text; /* For webkit-based browsers (Chrome, Safari) */
+  color: transparent;
+}
+.gradient-textIcon {
+  font-size: 8px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #090979, #333ce0, #07d4fa);
+  -webkit-background-clip: text; /* For webkit-based browsers (Chrome, Safari) */
+  color: transparent;
+}
+  
+
