@@ -1,6 +1,8 @@
 import React from "react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
+
+
 const ProjectsCard = ({ image, ProjectName, link }) => {
   return (
     <div className=" border-2 border-gray-500 hover:border-blue-400 rounded-2xl w-[95%] md:w-full h-auto md:h-[350px]  bg-gradient-to-br from-[#2d0f41] to-[#000000] p-2 mx-2 md:mx-0">

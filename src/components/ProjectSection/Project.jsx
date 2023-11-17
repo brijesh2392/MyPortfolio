@@ -5,7 +5,8 @@ import currPreview from "../../assets/CurrPreview.png";
 import youtubeClone from "../../assets/YoutubeClone.png";
 import movflix from "../../assets/movflix.png";
 import amazoncrop from "../../assets/amazoncrop.png";
-
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 import ProjectsCard from "./ProjectsCard";
 
@@ -51,7 +52,7 @@ const Project = () => {
           }
         />
 
-<ProjectsCard
+        <ProjectsCard
           ProjectName={
             <a
               href="https://mov-flix-01-ggt72zhy0-brijeshs-projects-c9c46df6.vercel.app/"
@@ -66,7 +67,7 @@ const Project = () => {
             "https://github.com/brijesh2392/MovFlix/tree/29d1f1cc9657526e6a7a19e0cb12dccfc66eee79"
           }
         />
-
+        <Carousel>
         <ProjectsCard
           ProjectName={"Password Generator"}
           image={PassGen}
@@ -80,7 +81,7 @@ const Project = () => {
             "https://github.com/brijesh2392/bnewapp/tree/main/CurrencyConverter"
           }
         />
-
+        </Carousel>
       </div>
     </div>
   );
