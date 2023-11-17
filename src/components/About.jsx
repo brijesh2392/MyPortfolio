@@ -1,5 +1,5 @@
 import React from "react";
-import BWProfile from "../assets/BWProfile.png";
+import profilePicture from "../assets/profilePicture.png";
 import { PiMedal, PiSuitcase } from "react-icons/pi";
 import { BiSupport } from "react-icons/bi";
 import { HiOutlineDocumentText } from "react-icons/hi";
@@ -30,7 +30,7 @@ const About = () => {
         {/* Profile pic */}
         <div className="  md:py-16 flex justify-center ">
           <img
-            src={BWProfile}
+            src={profilePicture}
             alt="profile-pic"
             width={300}
             className=" rounded-2xl "
