@@ -12,7 +12,7 @@ const Contact = () => {
   const [project, setProject] = useState("");
 
   const onSubmit = () => {
-    window.location.href = `mailto:2392brijesh@gmail.com?subject=Project Inquiry !! &body=Name: ${name}%0AEmail: ${email}%0AProject: ${project}`;
+    window.location.href = `mailto:bp2392.dev@gmail.com?subject=Project Inquiry !! &body=Name: ${name}%0AEmail: ${email}%0AProject: ${project}`;
     setName(""), setEmail(""), setProject("");
   };
 
@@ -35,12 +35,12 @@ const Contact = () => {
 
           <div className=" flex flex-col gap-6 w-3/4  ">
             <a
-              href={`mailTo:2392brijesh@gmail.com`}
+              href={`mailTo:bp2392.dev@gmail.com`}
               className=" border-2 text-blue-200 hover:text-blue-400 border-gray-500 hover:border-blue-400 py-3 px-16 rounded-xl flex flex-col items-center"
             >
               <HiOutlineMail size={25} />
               <p className=" text-xl">Email</p>
-              <p>2392brijesh@gmail.com</p>
+              <p>bp2392.dev@gmail.com</p>
               <span className=" flex items-center gap-2  ">
                 {" "}
                 Write me <BsFillArrowRightCircleFill />{" "}
@@ -76,7 +76,7 @@ const Contact = () => {
         </div>
         {/* ===============Write me your Project============ */}
 
-        <div className=" w-full">
+        <div className=" w-full mt-16 md:mt-0">
           <p className="text-center md:mr-40 py-5 text-textClr text-xl font-semibold">
             Write me your project
           </p>
