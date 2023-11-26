@@ -4,7 +4,8 @@ import { PiMedal, PiSuitcase } from "react-icons/pi";
 import { BiSupport } from "react-icons/bi";
 import { HiOutlineDocumentText } from "react-icons/hi";
 
-const PDF_FILE_URL = "http://localhost:5173/Brijesh-Resume.pdf";
+const PDF_FILE_URL =
+  "https://brijesh-portfolio-02030902.vercel.app/Brijesh-Resume.pdf";
 
 const About = () => {
   const downloadFileAtUrl = (url) => {
