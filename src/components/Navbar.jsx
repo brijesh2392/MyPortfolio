@@ -25,10 +25,7 @@ const Navbar = () => {
         className={` max-w-[1240px] mx-auto flex items-center justify-between p-5 font-bold text-textClr text-lg `}
       >
         <Link to="/">
-          <div className=" gradient-textLogo text-4xl font-bold ">
-            {" "}
-            Brijesh{" "}
-          </div>
+          <div className=" gradient-textLogo text-4xl font-bold p-1 ">Brijesh</div>
         </Link>
 
         <div
