@@ -68,8 +68,9 @@ const About = () => {
             </div>
           </div>
           <p className=" text-center sm:px-20 md:text-start md:flex md:justify-center md:max-w-[630px] max-w-[450px] ">
-            Frontend developer, i create Webpages with UI/UX user interface, i
-            have years of Experience with many happy client with projects
+            Frontend developer, specializing in crafting interactive and
+            responsive websites by translating UI/UX designs into engaging and
+            dynamic web experiences{" "}
           </p>
           <div className=" flex justify-center py-12">
             <button
