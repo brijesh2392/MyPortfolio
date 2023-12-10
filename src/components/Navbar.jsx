@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Home from "./Home";
 import { HiMenu } from "react-icons/hi/";
 import { ImCross } from "react-icons/im";
 import { useState } from "react";
 import "../App.css";
-
-
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,7 +24,12 @@ const Navbar = () => {
       <div
         className={` max-w-[1240px] mx-auto flex items-center justify-between p-5 font-bold text-textClr text-lg `}
       >
-        <div className=" gradient-textLogo text-4xl font-bold "> Brijesh </div>
+        <Link to="/">
+          <div className=" gradient-textLogo text-4xl font-bold ">
+            {" "}
+            Brijesh{" "}
+          </div>
+        </Link>
 
         <div
           className={` ${
@@ -90,7 +93,6 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
-          
           </ul>
         </div>
 

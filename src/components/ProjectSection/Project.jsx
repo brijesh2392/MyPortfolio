@@ -5,6 +5,7 @@ import currPreview from "../../assets/CurrPreview.png";
 import youtubeClone from "../../assets/YoutubeClone.png";
 import movflix from "../../assets/movflix.png";
 import amazoncrop from "../../assets/amazoncrop.png";
+import Quizland from "../../assets/Quizland.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
@@ -25,7 +26,7 @@ const Project = () => {
         <ProjectsCard
           ProjectName={
             <a
-              href="https://glittery-dragon-fc5205.netlify.app/"
+              href="https://video-streaming-clone.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +40,7 @@ const Project = () => {
         <ProjectsCard
           ProjectName={
             <a
-              href="https://65575e93202dd91fcff189c0--dainty-horse-7c33e1.netlify.app/"
+              href="https://amazon-clone020309.netlify.app/"
               target="blank"
               rel="noreferrer noopener"
             >
@@ -67,7 +68,21 @@ const Project = () => {
         />
         <Carousel>
           <ProjectsCard
-            ProjectName={"Password Generator"}
+            ProjectName={
+              <a
+                href="https://quizland.vercel.app/"
+                target="blank"
+                rel="noreferrer noopener"
+              >
+                Quizland
+              </a>
+            }
+            image={Quizland}
+            link={"https://github.com/brijesh2392/Quizland"}
+          />
+
+          <ProjectsCard
+            ProjectName={"Color Generator"}
             image={PassGen}
             link={"https://github.com/brijesh2392/bnewapp/tree/main/PassGen"}
           />
