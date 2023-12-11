@@ -18,7 +18,7 @@ const ProfileSection = () => {
   };
 
   return (
-    <div className="mx-4 mt-12 mb-8 md:mx-12 md:mt-48 md:mb-10">
+    <div className="mx-4 mt-12 mb-8 md:mx-12 md:mt-28 md:mb-10">
       <div className="flex flex-col-reverse items-center py-8 gap-4 md:flex-row md:justify-around md:mx-16 ">
         {/* Social Media */}
         <div className="flex justify-center md:flex-col md:gap-8 md:py-32 cursor-pointer">
